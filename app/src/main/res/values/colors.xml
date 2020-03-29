@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="botones">#116979</color>
+    <color name="botonesSandwich">#2c786c</color>
+
+    <color name="fondo">#DEE3E2</color>
+    <color name="fondo2">#000000</color>
+    <color name="fondoSandwich">#f8b400</color>
+
+    <color name="nav">#323232</color>
+    <color name="letras">#FFFFFF</color>
+    <color name="letras2">#de7119</color>
+
+
+</resources>

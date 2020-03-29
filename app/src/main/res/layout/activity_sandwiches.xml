@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_sandwiches"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondoSandwich"
+    tools:context=".Sandwiches">
+
+    <Button
+        android:id="@+id/italiano"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/botonesSandwich"
+        android:textStyle="bold"
+        android:text="@string/btn_italiano"
+        android:textColor="@color/letras"
+        android:drawableLeft="@drawable/burger"
+        android:drawablePadding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/chacarero"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/botonesSandwich"
+        android:textColor="@color/letras"
+        android:text="@string/btn_chacarero"
+        android:drawableLeft="@drawable/burger"
+        android:drawablePadding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/aLoPobre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/botonesSandwich"
+        android:text="@string/btn_aLoPobre"
+        android:textColor="@color/letras"
+        android:drawableLeft="@drawable/burger"
+        android:drawablePadding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/campestre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:background="@color/botonesSandwich"
+        android:text="@string/btn_campestre"
+        android:textColor="@color/letras"
+        android:drawableLeft="@drawable/burger"
+        android:drawablePadding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/barrosLucos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/btn_barrosLucos"
+        android:drawableLeft="@drawable/burger"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/botonesSandwich"
+        android:textColor="@color/letras"
+
+
+        />
+
+</LinearLayout>
