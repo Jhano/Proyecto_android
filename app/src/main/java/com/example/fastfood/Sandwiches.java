@@ -54,16 +54,16 @@ public class Sandwiches extends AppCompatActivity {
         sandwich_italiano = new Sandwich(getString(R.string.nombre_italiano), R.drawable.italiano, getString(R.string.detail_italiano), getString(R.string.precio_italiano));
         arraySandiwch.add(0,sandwich_italiano);
 
-        sandwich_chacarero = new Sandwich(getString(R.string.nombre_barrosLucos), R.drawable.barrosluco, getString(R.string.detail_barrosLuco), getString(R.string.precio_barrosLucos));
+        sandwich_chacarero = new Sandwich(getString(R.string.nombre_chacarero), R.drawable.chacarero, getString(R.string.detail_chacarero), getString(R.string.precio_chacarero));
         arraySandiwch.add(1,sandwich_chacarero);
 
         sandwich_aLoPobre = new Sandwich(getString(R.string.nombre_aLoPobre), R.drawable.alopobre, getString(R.string.detail_aLoPobre), getString(R.string.precio_aLoPobre));
         arraySandiwch.add(2,sandwich_aLoPobre);
 
-        sandwich_campestre = new Sandwich(getString(R.string.nombre_chacarero), R.drawable.chacarero, getString(R.string.detail_chacarero), getString(R.string.precio_chacarero));
+        sandwich_campestre = new Sandwich(getString(R.string.nombre_campestre), R.drawable.campestre, getString(R.string.detail_campestre), getString(R.string.precio_campestre));
         arraySandiwch.add(3,sandwich_campestre);
 
-        sandwich_barrosLucos = new Sandwich(getString(R.string.nombre_campestre), R.drawable.campestre, getString(R.string.detail_campestre), getString(R.string.precio_campestre));
+        sandwich_barrosLucos = new Sandwich(getString(R.string.nombre_barrosLucos), R.drawable.barrosluco, getString(R.string.detail_barrosLuco), getString(R.string.precio_barrosLucos));
         arraySandiwch.add(4,sandwich_barrosLucos);
 
 

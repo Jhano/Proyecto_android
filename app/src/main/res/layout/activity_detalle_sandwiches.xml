@@ -8,6 +8,8 @@
     tools:context=".DetalleSandwiches">
 
 
+
+
     <ImageView
         android:id="@+id/imageSandwich"
         android:layout_width="match_parent"
